@@ -18,10 +18,9 @@ import {
 
 import BottomTabNav from './navigation/bottomtabnav';
 
-
-const App: () => React$Node = () => {
+function App() {
   return (
-    <>
+      <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <BottomTabNav />
